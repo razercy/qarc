@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Events — QARC</title>
+    <link rel="stylesheet" href="../css/styles.css">
+  </head>
+  <body class="dark">
+    <header class="site-header">
+      <div class="brand small">
+        <div class="college-logos">
+          <img src="../assets/images/IIT_(ISM)_Dhanbad_Logo.svg.png" alt="IIT (ISM) Dhanbad" class="college-logo">
+          <img src="../assets/images/1630645703898.jpg" alt="NVCTI" class="nvcti-logo">
+        </div>
+        <div class="club-title">
+          <h1>QARC — Events</h1>
+        </div>
+      </div>
+      <nav class="main-nav">
+        <a href="../index.html">Home</a>
+        <a href="index.html">Events</a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="card">
+        <h2>Events</h2>
+        <p class="muted">Events are loaded from JSON so you can add them later without changing page markup.</p>
+        <div id="events-list" class="events-grid"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span id="year"></span> QARC</p>
+    </footer>
+
+    <script src="../js/events.js"></script>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </body>
+</html>

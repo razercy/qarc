@@ -1,0 +1,13 @@
+{
+  "events": [
+    {
+      "id": "sample-event",
+      "title": "Sample Launch Workshop",
+      "date": "2026-04-01",
+      "description": "A sample event demonstrating how events are presented. Replace or add JSON files in this folder to add new events.",
+      "images": [
+        "../assets/images/sample1.jpg"
+      ]
+    }
+  ]
+}
